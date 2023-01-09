@@ -34,3 +34,13 @@ public class array {
 		
 	}
 }
+
+
+
+
+output:
+even elements - 3
+even elements - 5
+even elements - 7
+even elements - 9
+even elements - 17
