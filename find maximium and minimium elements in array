@@ -1,0 +1,42 @@
+public class Main
+{
+     
+public static void main(String[] args) {  
+    
+    Main obj = new Main();
+    obj.negative();
+       
+}
+
+    void negative(){
+        
+        int ar[]={5,8,7,9,10};
+        int big=0;
+        int small=ar[0];;
+        
+        for(int i=0;i<ar.length;i++){
+            if(ar[i]>big){
+                big=ar[i];
+                
+                
+                
+            }
+            else if(small<big){
+                
+            }
+        
+           
+        }
+         System.out.println("maximium number is" + " " + big);
+          System.out.println("minimium number is" + " " +small);
+        
+        
+    }
+}
+   
+   
+   
+   output:💡
+   maximium number is :10
+   minimium number is :5
+   
