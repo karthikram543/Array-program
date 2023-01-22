@@ -1,0 +1,20 @@
+ void array1(){
+	            
+	            int ar[]={5,8,6,9};
+	            
+	            int first = ar[0]<ar[1]?ar[0]:ar[1];
+	            int second = ar[0]>ar[1]?ar[0]:ar[1];
+	            
+	            for(int i=first;i<second;i++){
+	                
+	                System.out.println(i);
+	            }
+	            
+	           
+             
+  output:  ▶  5
+               6
+               7
+     
+  
+ 
