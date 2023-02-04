@@ -1,0 +1,29 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 
+	 int arr[]={1,5,4,4,6};
+	 int sum=0;
+	 int inputNumber=11;
+	 
+	 
+	 for (int i =  0; i < arr.length; i++)
+  {
+  for (int j  = i+1; j < arr.length; j++)
+  {
+  if(arr[i]+arr[j] == inputNumber)
+  {
+  System.out.println(arr[i]+" + "+arr[j]+" =  "+inputNumber);
+  }
+	         
+	         
+	     }
+	    
+	
+	 }
+	 
+}
+}
+output:
+
+5 + 6 =  11
