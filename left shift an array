@@ -1,0 +1,36 @@
+public class javas {
+
+	public static void main (String[]args) {
+		int ar[]= {1,2,3,4,5};
+		System.out.println("before right shift");
+	
+		for(int i=0; i<ar.length; i++)
+			{
+				System.out.print(ar[i]+ " ");
+			}
+		int i=0;
+		int temp=ar[0];
+		while(i<ar.length-1) {
+			ar[i]=ar[i+1];
+			i++;
+		}
+		ar[i]=temp;
+		System.out.println();
+		System.out.println("after right shift");
+		for(int j=0;j<ar.length;j++) {
+			System.out.print(ar[j]+" ");
+		}
+}
+}
+				 
+				 
+   output:
+   
+before right shift
+1 2 3 4 5 
+after right shift
+2 3 4 5 1 
+   
+         
+         
+         
