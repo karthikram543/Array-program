@@ -1,0 +1,25 @@
+void remove() {
+		int [] Array = {23, 93, 56, 92, 39};
+		int size=Array.length;
+		int pos=4
+				;
+		int val=Array[pos];
+		for(int i=pos	;i<size-1;i++) {
+			Array[i]=Array[i+1];
+		}
+		for(int i=0;i<size-1;i++) {
+			System.out.println(Array[i]);
+		}
+		
+		
+	
+	}
+
+
+}
+
+output:
+23
+93
+56
+92
