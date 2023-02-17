@@ -1,0 +1,47 @@
+public class array6 {
+
+	public static void main(String[] args) {
+		array6 obj = new array6();
+	obj.min();
+		
+		
+		}
+	void min() {
+	int array[]= {100,-1,500,-2,300,-5,-9,-6,400};
+	int temp=0;
+	int i=0;
+	
+	for( i=0;i<array.length;i++) {
+		for(int j=i+1;j<array.length;j++) {
+			if(array[i]>array[j]) {
+				temp=array[i];
+				array[i]=array[j];
+				array[j]=temp;
+			}
+		}
+		System.out.println(array[i]);
+		
+	}
+	
+	
+	
+	
+}
+
+
+
+
+}
+
+
+
+output:
+-9
+-6
+-5
+-2
+-1
+100
+300
+400
+500
