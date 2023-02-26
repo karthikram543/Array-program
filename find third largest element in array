@@ -1,0 +1,30 @@
+public class Main
+{
+	public static void main(String[] args) {
+		
+		int arr[]={10,200,300,20,500};
+	      int temp=0;
+	      int size=arr.length;
+	     
+	      
+	      for(int i=0;i<size;i++){
+	          for(int j=i+1;j<size;j++){
+	              if(arr[i]>arr[j]){
+	                  temp=arr[i];
+	          arr[i]=arr[j];
+	          arr[j]=temp;
+	              }
+	              
+	          
+	      }
+	     
+	}
+	 System.out.println("first largest element in an array" +" " +arr[size-1]);
+	  System.out.println("second largest element in an array"+" " +arr[size-2]);
+	   System.out.println("second largest element in an array"+ " " +arr[size-3]);
+}
+}
+output:
+first largest element in an array 500
+second largest element in an array 300
+second largest element in an array 200
